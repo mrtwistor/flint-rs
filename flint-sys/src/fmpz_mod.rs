@@ -342,7 +342,7 @@ extern "C" {
 }
 extern "C" {
     pub fn fmpz_mod_divides(
-        a: *const fmpz,
+        a: *mut fmpz,
         b: *const fmpz,
         c: *const fmpz,
         ctx: *const fmpz_mod_ctx_struct,
